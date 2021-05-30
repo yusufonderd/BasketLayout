@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="green">#558B2F</color>
+  <color name="orange">#EF6C00</color>
+  <color name="orange_transparent">#B4EF6C00</color>
+  <color name="green_transparent">#86558B2F</color>
+  <color name="white">#EDEFEC</color>
+
+
+</resources>

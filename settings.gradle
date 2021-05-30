@@ -1,0 +1,3 @@
+rootProject.name = "BasketLayoutSample"
+include ':app'
+include ':lib'
