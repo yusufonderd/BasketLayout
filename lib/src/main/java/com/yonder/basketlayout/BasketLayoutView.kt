@@ -1,6 +1,7 @@
 package com.yonder.basketlayout
 
 import android.content.Context
+import android.graphics.Color
 import android.util.AttributeSet
 import android.view.Gravity
 import androidx.appcompat.widget.AppCompatImageButton
@@ -91,6 +92,7 @@ class BasketLayoutView @JvmOverloads constructor(
     AppCompatTextView(context).apply {
       id = generateViewId()
       text = "$quantity"
+      setTextColor(Color.BLACK)
       gravity = Gravity.CENTER
       width = 36.toPx.toInt()
       height = 36.toPx.toInt()
