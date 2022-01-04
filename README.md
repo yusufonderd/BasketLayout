@@ -34,8 +34,8 @@ Basket Layout is a library which extending from cardview that makes manage add t
 
 #### Code:
 ```kotlin
-    basketLayoutView.setMaxQuantity(3) // Optional | Default is 1
-    basketLayoutView.setBasketQuantity(3) // Optional | Default is null
+    basketLayoutView.setBasketQuantity(3) // Optional | Default is 1 
+    basketLayoutView.setMaxQuantity(3) // Optional | Default is null
     basketLayoutView.setBasketLayoutListener(this) // For listening layout events
 ```
 
