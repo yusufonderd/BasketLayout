@@ -8,4 +8,5 @@ interface BasketLayoutViewListener {
   fun onClickDecreaseQuantity(quantity: Int)
   fun onClickIncreaseQuantity(quantity: Int)
   fun onClickTrash()
+  fun onExceedMaxQuantity(quantity: Int)
 }

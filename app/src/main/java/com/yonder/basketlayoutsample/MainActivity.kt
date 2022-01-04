@@ -13,7 +13,14 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
     findViewById<BasketLayoutView>(R.id.basketView).apply {
+      setBasketQuantity(quantity = 2)
+      setMaxQuantity(maxQuantity = 3)
+
       setBasketLayoutListener(object : BasketLayoutViewListener {
+        override fun onExceedMaxQuantity(quantity: Int) {
+          Toast.makeText(this@MainActivity, "Exceed max quantity: $quantity", Toast.LENGTH_SHORT)
+            .show()
+        }
         override fun onClickDecreaseQuantity(quantity: Int) {
           Toast.makeText(this@MainActivity, "Decrease quantity to $quantity", Toast.LENGTH_SHORT)
             .show()
