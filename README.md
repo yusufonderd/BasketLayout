@@ -1,6 +1,34 @@
 ## GIF
 <img src="https://github.com/yusufonderd/BasketLayout/blob/master/art/basketlayout-wip.gif" />
 
+## Installation
+
+(app) build.gradle:
+```gradle
+implementation 'com.github.yusufonderd:BasketLayout:1.0'
+```
+#### AND
+
+(root) build.gradle:
+```gradle
+allprojects {
+    repositories {
+        ..
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+or settings.gradle:
+```gradle
+dependencyResolutionManagement {
+    ..
+    repositories {
+        ..
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
 ## Usage
 Use like a card view 
 ```xml
