@@ -56,6 +56,10 @@ This view extended from card view. So you can use all card view attributes
 | `setBasketQuantity` | Set initial basket quantity  |
 | `setMaxQuantity` | Set maximum limit for quantity  |
 | `setBasketLayoutListener` | Set for observe basket layout behaviour  |
+| `onClickIncreaseQuantity` | Trigger when user click increase button  |
+| `onClickDecreaseQuantity` | Trigger when user click decrease button  |
+| `onClickTrash` | Trigger when user click trash button  |
+| `onExceedMaxQuantity` | Trigger when user click increase button and quantity greater than max quantity |
 
 
 #### Code:
