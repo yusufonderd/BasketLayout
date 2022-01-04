@@ -1,5 +1,7 @@
 ## GIF
-<img src="https://github.com/yusufonderd/BasketLayout/blob/master/art/basketlayout-wip.gif" />
+
+https://user-images.githubusercontent.com/13941871/148003998-1bce5940-66aa-4d37-87e3-5924a96147fb.mov
+
 
 ## Installation
 
