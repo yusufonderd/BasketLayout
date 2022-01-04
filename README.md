@@ -48,7 +48,7 @@ Use like a card view
 ```
 
 #### Attributes:
-This view extends from card view. So you can use all card view attributes  
+This view extended from card view. So you can use all card view attributes  
 
 #### Extra Properties:
 | Properties | Description |
