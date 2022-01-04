@@ -1,6 +1,6 @@
 ## GIF
 
-https://user-images.githubusercontent.com/13941871/148003998-1bce5940-66aa-4d37-87e3-5924a96147fb.mov
+![ezgif-3-84da886c6c](https://user-images.githubusercontent.com/13941871/148004184-2a6c9fee-1230-4ac9-84eb-f04f6ddb2e17.gif)
 
 
 ## Installation
