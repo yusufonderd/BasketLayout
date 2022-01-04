@@ -1,7 +1,9 @@
+# BasketLayout
+Basket Layout is a library which extending from cardview that makes manage add to cart operation easier for android app.
+
 ## GIF
 
 ![ezgif-3-84da886c6c](https://user-images.githubusercontent.com/13941871/148004184-2a6c9fee-1230-4ac9-84eb-f04f6ddb2e17.gif)
-
 
 ## Installation
 
@@ -62,6 +64,3 @@ This view extends from card view. So you can use all card view attributes
     basketLayoutView.setBasketQuantity(3) // Optional | Default is null
     basketLayoutView.setBasketLayoutListener(this) // For listening layout events
 ```
-
-# BasketLayout (In development..)
-Basket Layout is a library which extending from cardview that makes manage add to cart operation easier for android app.
