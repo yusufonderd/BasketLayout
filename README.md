@@ -34,7 +34,7 @@ dependencyResolutionManagement {
 ```
 
 ## Usage
-Use like a card view 
+Use and customize like a card view 
 ```xml
  <com.yonder.basketlayout.BasketLayoutView
         android:id="@+id/basketView"
