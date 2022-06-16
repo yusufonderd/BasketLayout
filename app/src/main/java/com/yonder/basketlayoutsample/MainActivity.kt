@@ -1,18 +1,24 @@
 package com.yonder.basketlayoutsample
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
-import com.yonder.basketlayout.BasketLayoutView
+import androidx.appcompat.app.AppCompatActivity
 import com.yonder.basketlayout.BasketLayoutViewListener
+import com.yonder.basketlayoutsample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        findViewById<BasketLayoutView>(R.id.basketView).apply {
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
+        binding.basketView.apply {
             setBasketQuantity(quantity = 2)
             setMaxQuantity(maxQuantity = 3)
 
