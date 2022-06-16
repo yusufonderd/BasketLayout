@@ -5,8 +5,8 @@ package com.yonder.basketlayout
  * @date: 30/05/2021
  */
 interface BasketLayoutViewListener {
-  fun onClickDecreaseQuantity(quantity: Int)
-  fun onClickIncreaseQuantity(quantity: Int)
-  fun onClickTrash()
-  fun onExceedMaxQuantity(quantity: Int)
+    fun onClickDecreaseQuantity(quantity: Int)
+    fun onClickIncreaseQuantity(quantity: Int)
+    fun onClickTrash()
+    fun onExceedMaxQuantity(quantity: Int)
 }

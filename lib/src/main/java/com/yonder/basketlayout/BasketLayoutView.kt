@@ -208,5 +208,4 @@ class BasketLayoutView @JvmOverloads constructor(
     private fun setTvQuantity(quantity: Int) {
         tvQuantity.text = "$quantity"
     }
-
 }
