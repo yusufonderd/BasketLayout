@@ -1,18 +1,15 @@
 plugins {
   id 'com.android.library'
   id 'kotlin-android'
-  id 'com.github.dcendents.android-maven'
 }
 group = "com.github.yusufonderd"
 
 android {
-  compileSdkVersion 31
+  compileSdkVersion 32
 
   defaultConfig {
     minSdkVersion 17
-    targetSdkVersion 31
-    versionCode 1
-    versionName "1.0"
+    targetSdkVersion 32
 
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     consumerProguardFiles "consumer-rules.pro"
@@ -34,10 +31,7 @@ android {
 }
 
 dependencies {
-
-  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation 'androidx.core:core-ktx:1.7.0'
-  implementation 'androidx.appcompat:appcompat:1.4.0'
-  implementation 'com.google.android.material:material:1.4.0'
-
+  implementation 'androidx.core:core-ktx:1.8.0'
+  implementation 'androidx.appcompat:appcompat:1.4.2'
+  implementation 'com.google.android.material:material:1.6.1'
 }
